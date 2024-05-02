@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Item</title>
+    <link rel="stylesheet" href="Selected-product.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title">
+        <span class="title-accent-colour">Hyper</span>SPACE
+      </h1>
+      <div></div>
+      <div class="right-header js-right-header">
+        <div class="header-link-container">
+          <a href="../../Index.html" class="header-link">Home</a>
+          <a href="../Cart/Cart.html" class="header-link cart-link">
+            <div class="cart-num js-cart-num">0</div>
+            <img
+              src="../../Resources/SVG/icons/cart_shopping_icon.svg"
+              height="20px"
+              color="black"
+              alt=""
+            />
+          </a>
+        </div>
+        <a href="../Sign-in/Sign-in.html" class="link-style">
+          <button class="header-button1 js-sign-in">Sign in</button></a
+        >
+        <a href="../Sign-up/Sign-up.html" class="link-style">
+          <button class="header-button2 js-sign-up">Sign up</button></a
+        >
+      </div>
+      <div class="error-container js-error-container">
+        <div class="error-message js-error-message">
+          Contact a nile university admin!,<br />
+          block C room 235
+        </div>
+      </div>
+    </header>
+    <!-- <div class="card"> -->
+    <div class="product-card">
+      <div class="product-card-image-container">
+        <img
+          src="../../Resources/Images/products/Product-categories/Skincare/The-ordinary-salicylic-acid.jpg"
+          class="product-card-image js-product-card-image"
+          alt=""
+        />
+      </div>
+      <p class="product-card-name js-product-card-name">
+        The ordinary salicylic acid
+      </p>
+
+      <div class="product-price-container">
+        <p>
+          price:<span class="product-card-price js-product-card-price"
+            >N15,000</span
+          >
+        </p>
+        <img
+          src="../../Resources/Images/ratings/rating-30.png"
+          class="js-rating-image"
+          alt=""
+        />
+      </div>
+      <div class="product-quantity-container">
+        <p class="product-quantity-paragraph">Quantity:</p>
+        <div class="product-card-counter">
+          <button class="minus-btn js-minus-btn">&minus;</button>
+          <div class="product-counter-num js-product-counter-num">1</div>
+          <button class="plus-btn js-plus-btn">&plus;</button>
+        </div>
+      </div>
+      <div class="add-to-cart-container">
+        <button class="add-to-cart-button js-add-to-cart-button">
+          Add to cart
+        </button>
+      </div>
+    </div>
+    <!-- </div> -->
+    <script src="../../Data/products.js"></script>
+    <script src="Selected-product.js"></script>
+  </body>
+</html>
